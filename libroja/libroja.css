@@ -1,21 +1,73 @@
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+
 body {
-    background: #F0C987;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background: #DB4C40;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
 }
 
 h1 {
+    font-family: "permanent marker";
     font-size: 80px;
-    color: #DB4C44;
+    color: #F0C987;
     background: #3C153B;
-    text-align: center;
-    border-radius: 8px;
+    border-radius: 60px 20px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 div {
-    background: #DB4C40;
-    width: 50%;
-    height: 64px;
+    padding: 10px;
 }
+
+.all-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.first-box {
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    margin: 15vh 20vw;
+}
+
+.second-box {
+    background: #8B1E3F;
+    width: 360px;
+    height: 34px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin: 3vh 20vw;
+    border-radius: 8px;
+}
+
+.third-box {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+.input-box {
+    padding: 0px;
+    font-size: 20px;
+    margin: 0px;
+}
+
+#input-field {
+    background-color: #F0C987; 
+    border-color: transparent;
+}
+
