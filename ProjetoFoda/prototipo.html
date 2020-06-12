@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt_br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../libroja/libroja.css">
-    <title>Prototipo</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../libroja/libroja.css">
+        <title>Prototipo</title>
+    </head>
 
-<body>
-    <header>
-        <h1>Librojá!</h1>
-    </header>
-    
-    <div>
-        <a href="#">
-            <input type="text" placeholder="digite o libro!">
-            <img src="../assets/search.svg" alt="Procurar">
-        </a>
-    </div>
+    <body>
+        <header>
+            <h1>Librojá!</h1>
+        </header>
+        
+        <div>
+            <a href="#">
+                <input type="text" id="search_input" placeholder="digite o libro!">
+                <button type="button" onclick="get_user_text()">Pesquisa p mim</button>
+            </a>
+        </div>
 
-</body>
+
+        <script src="script.js"></script>
+    </body>
 </html>
