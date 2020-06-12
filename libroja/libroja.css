@@ -16,10 +16,14 @@ h1 {
     font-family: "permanent marker";
     font-size: 80px;
     color: #F0C987;
-    background: #3C153B;
-    border-radius: 60px 20px;
-    text-align: justify;
-    text-justify: inter-word;
+    margin: 0;
+    padding: 0;
+    /* background: #3C153B; */
+    /* border-radius: 60px 20px; */
+    /* text-align: justify; */
+    /* text-justify: inter-word; */
+    display: flex;
+    align-items: center;
 }
 
 div {
@@ -38,9 +42,13 @@ div {
     width: 600px;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-items: center;
-    margin: 15vh 20vw;
+    /* align-items: center; */
+    /* justify-items: center; */
+    /* margin: 15vh 20vw; */
+    background-color: #3C153B;
+    justify-content: center;
+    border-radius: 60px 20px;
+
 }
 
 .second-box {
