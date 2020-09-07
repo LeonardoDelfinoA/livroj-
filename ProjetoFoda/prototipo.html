@@ -1,25 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt_br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../libroja/libroja.css">
-        <title>Prototipo</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../libroja/libroja.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <title>libroja</title>
+</head>
 
-    <body>
-        <header>
-            <h1>Librojá!</h1>
-        </header>
-        
-        <div>
-            <a href="#">
-                <input type="text" id="search_input" placeholder="digite o libro!">
-                <button type="button" onclick="get_user_text()">Pesquisa p mim</button>
-            </a>
+<body class="all-boxes">
+    <div class="first-box">
+        <h1>Librojá!</h1> 
+    </div>
+    <div class= "second-box" class="all-boxes">
+    <input id= "input-field" class= "input-box"type="text" placeholder="digite o libro!">
+    <button id="button" class= "input-box">Pesquisar</button>
+    </div>
+    <div class="third-box">
+        <div class="bottom-boxes">
+            <div class="img">
+                IMAGEM
+            </div>
+            <h2 class="bottom-text">Título</h2>
+            <h3 class="bottom-text">autor</h3>
+            <h5 class="bottom-text">editora</h5>
+            <h5 class="bottom-text">ano de publicação</h5>
+            <p id="sinopse">sinopse: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent egetcongue urna.<br>
+                , bibendum a purus. Praesent sed nisl ligula.<br>
+                Suspendisse sit amet posuere libero.</p>
+
         </div>
-
-
-        <script src="script.js"></script>
-    </body>
+        <div class="bottom-boxes">
+            <div class="img">
+                IMAGEM
+            </div>
+            <h2 class="bottom-text">Título</h2>
+            <h3 class="bottom-text">autor</h3>
+            <h4 class="bottom-text">editora</h4>
+            <h4 class="bottom-text">ano de publicação</h4>
+            <p id="sinopse">sinopse: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent egetcongue urna.<br>
+                , bibendum a purus. Praesent sed nisl ligula.<br>
+                Suspendisse sit amet posuere libero.</p>
+        </div>
+    </div>
+</body>
 </html>
